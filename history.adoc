@@ -7,6 +7,7 @@
 
 === Version 1.14-draft
 
+* {issues}635[Issue #635]: Revision of section 4.3 to improve its clarity
 * {issues}623[Issue #623]: Consistently refer to "CF conventions" and use of impersonal from.
 
 === Version 1.13 (17 December 2025)
