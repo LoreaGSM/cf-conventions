@@ -391,6 +391,7 @@ variables:
         pl:long_name = "number of points per latitude" ;
         pl:units = "1" ;
    int reduced_gaussian_index(reduced_gaussian_index) ;
+        reduced_gaussian_index:standard_name = "reduced_gaussian_index"
         reduced_gaussian_index:long_name = "Reduced Gaussian grid point index";
         reduced_gaussian_index:units = "1";
    float data(reduced_gaussian_index) ;
