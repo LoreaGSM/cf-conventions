@@ -572,7 +572,7 @@ Example: 298.257222101 for the GRS 1980 ellipsoid.
 If all three attributes are specified then the supplied values must be consistent with the aforementioned formula.)
 
 | **`latitude_dimension`** | N
-| The number of latitude lines from pole to equator (N) in a reduced Gaussian grid. The full grid therefore contains 2N latitude lines.
+| The number of latitude lines from pole to equator (N) in a reduced Gaussian grid. The full grid therefore contains 2N latitude lines. N must be an even number.
 
 | **`latitude_of_projection_origin`** | N
 | The latitude (degrees_north) chosen as the origin of rectangular coordinates for a map projection.
