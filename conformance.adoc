@@ -380,6 +380,8 @@ The legal values for the **`grid_mapping_name`** attribute are contained in Appe
 * The value of the **`refinement_level`** attribute must be an integer in the range 0-29.
 * A variable with standard name **`healpix_index`** must have an integer data type and all values must be non-negative.
 * A variable with standard name **`reduced_gaussian_index`** must have an integer data type starting from 0 and all values must be non-negative and strictly monotonic.
+* The attribute *`grid_subtype`* of the *`reduced_gaussian`* grid mapping must be **`normal`** or **`octahedral`**.
+* The value of the attribute *`latitude_dimension`* of the *`reduced_gaussian`* grid mapping must be an even number.
 
 *Recommendations:*
 
