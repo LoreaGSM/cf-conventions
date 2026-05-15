@@ -338,7 +338,7 @@ __Map parameters:__::
 
 * **`grid_subtype`** - Reduced Gaussian grid type.
 The permitted values (case-insensitive) are **`normal`** and **`octahedral`**.
-* **`latitude_dimension`** - The name of a netCDF dimension which specifies the number of latitude lines _N_, where _N_ must be even because these grids do not have points at the poles and equator.
+* **`latitude_dimension`** - The name of both a one-dimensional variable, which contains the latitude coordinates of the latitude lines, and of its single dimension, which specifies the number of latitude lines _N_, where _N_ must be even because these grids do not have points at the poles and equator.
 * Either **`points_per_latitude`** or **`accumulated_points_per_latitude`** - Whichever is given, it contains the name of a one-dimensional variable, whose single dimension is identified by the **`latitude_dimension`** attribute.
 The **`points_per_latitude`** and **`accumulated_points_per_latitude`** variables are equivalent; the latter is the cumulative sum of the former, and may ease user computations of latitudes and longitudes.
 * **`longitude_of_first_meridian`** - This parameter is optional (default is 0)
